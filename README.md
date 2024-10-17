@@ -12,10 +12,13 @@ This project implements a distributed sales management system where multiple bra
 
 ### Key Benefits
 
-**Data Consistency:** Ensures all sales data from multiple branches is correctly and consistently reflected in the central database.
+**Data Consistency & synchronisation:** Ensures all sales data from multiple branches is correctly and consistently reflected in the central database.
 
 **Conflict-Free Updates:** RabbitMQ helps in managing conflicts, ensuring that sales data from different branches doesn't overwrite each other.
 
 **High Availability:** System remains operational even if one of the branch services is down, as RabbitMQ ensures messages are processed when services are back online.
 
 **Scalability:** New branch offices can be added easily by integrating their services with RabbitMQ and the central database.
+
+
+![demo](https://s7.ezgif.com/tmp/ezgif-7-1b87ceacc9.gif)
