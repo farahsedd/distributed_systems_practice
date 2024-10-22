@@ -21,4 +21,4 @@ This project implements a distributed sales management system where multiple bra
 **Scalability:** New branch offices can be added easily by integrating their services with RabbitMQ and the central database.
 
 
-![demo](https://s7.ezgif.com/tmp/ezgif-7-1b87ceacc9.gif)
+![demo](/demo.gif)
